@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgbody"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "MISSION"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview1"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "Mission to realise the vision of universal availability of holistic wellness materials, BSY Group will engage in the streamlined distribution of such genuine, top-quality and effective items/materials to as many people as possible at prices that are as affordable as possible."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview2"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "OBJECTIVES"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview3"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "•Promoting the use of Noni products for the holistic wellness of all people, especially those who are suffering from high blood pressure, cancer, arthritis, immune deficiency, degenerative diseases, general debility, premature greying of hair, etc.\n \n• Distributing pure NONI products to those in need of these products in time at the lowest possible price.\n \n• Carrying out research on the effectiveness of NONI products in other areas of ailment like cough, fever, irregular menstruation, skin problems, etc.\n \n• Exploring the possibility of cultivation of NONI in new areas, where climate and soil are favourable for such cultivation, and doing comparative studies of the medicinal properties of these with the Hawaiian NONI"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview4"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "PRIIS INDIA"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview5"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "Headquartered in Kochi, it is the worldwide marketing partner for BSY NONI products. PRIIS Trading Company got the registration of Central Drugs Standard Control Organization (CDSCO) and certification for importing BSY Noni Hair products in India and Middle East. They are gaining popularity as the first ever organic hair products supplier in India supplying products that aid hair color transformation into natural black with no traces of toxins that can harm the hair."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview6"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "BSY GROUP BIO-TECH CHAIN CO. LTD."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview7"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "It is the economic and cultural association of the BSY US International Group Holdings Co., Ltd, which is headquartered in Hawaii, America. As an independently qualified legal representative, it takes Noni ecological health products as its core industry, covering daily cosmetics, health drinks and liquors in green business, health and life industries."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview8"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "BSY GROUP"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview9"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "BSY Group is a conglomerate of more than 35 Companies worldwide operating in various sectors and industries. BSY Group is an aggressive player in the areas of cosmaceuticals, nutraceuticals, Food supplements and cosmetics and has achieved significant presence in the trillion dollar global cosmetic health and wellness sector."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

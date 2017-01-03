@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbody"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:id = "@+id/bsynoni"
+        android:gravity="center"
+        android:src="@drawable/bannerstrip" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/product_description"
+        android:layout_below="@+id/bsynoni"
+        android:layout_marginTop="45dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text = "•	Description"
+        android:textSize="21dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/product_usage"
+        android:layout_below="@+id/product_description"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text = "•	How to Use"
+        android:textSize="21dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/product_advantage"
+        android:layout_below="@+id/product1_usage"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text = "•	Advantages"
+        android:textSize="21dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/product_ingredients"
+        android:layout_below="@+id/product_advantage"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text = "•	Ingredients"
+        android:textSize="21dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/product_faq"
+        android:layout_below="@+id/product_ingredients"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text = "•	FAQ"
+        android:textSize="21dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id= "@+id/hair_image1"
+            android:src = "@drawable/hair3"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id= "@+id/hair_image2"
+            android:src = "@drawable/hair1"
+            android:layout_below="@+id/hair_image1"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgbody"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "Weaves India ( Bangalore) :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview1"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "BSY NONI is a professional and target oriented company which is always there to help and give a push. I have been working at BSY NONI and they provide healthy working environment. Since BSY NONI hair dye is of constant demand, I always receive orders from various parts including remote areas."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview2"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "Al-Aleeza (Dubai) :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview3"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "At first I was doubtful about the potential of BSY NONI to secure a place in Dubai market. But in due course I have realized that it is one of the highly demanded hair dyes. All the customers provide the same remark, ‘it is healthy, effective and harmless’. These reviews and comments have raised the quantity of orders that I receive."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview4"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "Roaming India (Palakkad) :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview5"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "I would like to suggest that BSY NONI should focus on fulfilling the orders from the remote areas. I have received bulk orders but I have not been able to distribute the product on a timely manner. I think it might be because of the high frequency with which the orders are received. I have not experienced this difficulty while I was working in the urban areas."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview6"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "Thejas Marketing (Wayanad) :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview7"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "While talking about BSY NONI what attracts me the most is the good organization of its distribution channels. All the orders will be fulfilled in a timely manner. For a distributor, it is a great relief to receive the orders in time and at times earlier than the scheduled time."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview8"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "S.B. Associates (Kottayam) :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview9"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "I think we should work more on the publicity part of the product and advertise more. Our product is far better than the existing dyes in the Indian market in terms of ingredients, result and reliability. Due to lack of advertisement we are not able to reach certain areas and people."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview10"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "Gurukul Kangri Pharmacy (Haridwar) :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview11"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "I have worked as a part of various companies before joining BSY NONI including cosmetics firms. I am satisfied with the distribution channels of BSY NONI because no matter how much quantity is demanded, it would be met in a timely manner. Unlike other hair dyes BSY NONI black hair magic has regular customers and it is increasing day by day. As a distributor I enjoy working with BSY NONI."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview12"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "Arvind Sahyadri (Pune) :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview13"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "BSY NONI is an unfamiliar name in the Indian market but in a short duration I could feel the growth and success attained by BSY NONI while going through the orders that I receive and distributing the product. Above and beyond, what attracts me the most is the effective communication facilities between the distributors and the company. As a result of this, I think we, or at least I am able to carry out my work and assignments more efficiently."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview14"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text = "Jai Mata Di Traders (Odisha) :"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview15"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "Though we are able to meet the demand and fulfill the orders right now, it might be challenging in the future because the demand is increasing on a high rate. I suggest that we should open up depots in each district to deliver the product smoothly. It will eliminate transportation difficulties and other related issues."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/description_textview16"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text = "Sankar Pharma (Ernakulam) :"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview17"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "BSY NONI has been able to satisfy not only the customers but also the distributors and other people working in the company. More than anything it is the value given to time and accuracy that have made BSY NONI one of the leading companies in today’s cosmetics market. I found the working environment more friendly and healthy. I consider this as an opportunity to work with one of the best companies in India."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/description_textview18"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text = "Malabar Traders (UAE) :"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/description_textview19"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text = "The highlight of BSY NONI is its regular customers. After the initial purchase people are demanding the same BSY NONI product in their second and third purchase (feedback of some shop owners). So, the regular customers are increasing. I think we will need more distributors in the near future considering the current statistics."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

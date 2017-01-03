@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgbody"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:id = "@+id/fruit_bsynoni"
+            android:gravity="center"
+            android:src="@drawable/fruitbanner" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/fruit_description"
+            android:layout_below="@+id/fruit_bsynoni"
+            android:layout_marginTop="45dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:text = "•	Description"
+            android:textSize="21dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/fruit_usage"
+            android:layout_below="@+id/fruit_description"
+            android:layout_marginTop="15dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:text = "•	How to Use"
+            android:textSize="21dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id= "@+id/fruit_image1"
+                android:src = "@drawable/fruit2"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

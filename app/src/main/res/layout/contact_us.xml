@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbody"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:id = "@+id/bsynoni"
+        android:gravity="center"
+        android:src="@drawable/bannerstrip" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/address"
+            android:text = "Address:  "
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/address_detail"
+            android:text = "Door No. 32/2970, Panakattumpilly Road, Anjumuri, Vyttila P.O. Cochin - 682019"
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/address"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/telephone"
+            android:text = "Tele.:  "
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/address_detail"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/telephone_detail"
+            android:text = "+91-9278500006, 9266665444"
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/telephone"
+            android:layout_below="@id/address_detail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/email"
+            android:text = "Email:  "
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_below="@id/telephone_detail"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/email_detail"
+            android:text = "info@bsynonifranchise.com"
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/email"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/telephone_detail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/website"
+            android:text = "Website:  "
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_below="@id/email_detail"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/website_detail"
+            android:text = "www.bsynonifranchise.com"
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/website"
+            android:layout_below="@id/email_detail"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+</LinearLayout>
